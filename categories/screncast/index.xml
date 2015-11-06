@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Screncast on codegangsta.io</title>
+    <link>https://codegangsta.io/categories/screncast/</link>
+    <description>Recent content in Screncast on codegangsta.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Mar 2015 16:23:07 -0700</lastBuildDate>
+    <atom:link href="https://codegangsta.io/categories/screncast/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Essential Go Bonus: Concurrency</title>
+      <link>https://codegangsta.io/blog/2015/03/08/essential-go-concurrency/</link>
+      <pubDate>Sun, 08 Mar 2015 16:23:07 -0700</pubDate>
+      
+      <guid>https://codegangsta.io/blog/2015/03/08/essential-go-concurrency/</guid>
+      <description>&lt;p&gt;You guys asked for it and now it&amp;rsquo;s finally here! I just updated &lt;a href=&#34;https://www.kajabinext.com/marketplace/courses/1-essential-go&#34;&gt;Essential Go&lt;/a&gt; with a 5 part bonus series on concurrency in Go.&lt;/p&gt;
+
+&lt;p&gt;If you already own &lt;a href=&#34;https://www.kajabinext.com/marketplace/courses/1-essential-go&#34;&gt;Essential Go&lt;/a&gt; then you already have the new videos waiting for you in the course. If you haven&amp;rsquo;t already purchased &lt;a href=&#34;https://www.kajabinext.com/marketplace/courses/1-essential-go&#34;&gt;Essential Go&lt;/a&gt;, now is the perfect time. ($15.00 is an absolute steal)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

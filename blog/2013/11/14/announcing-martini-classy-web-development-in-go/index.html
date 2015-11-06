@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>Announcing Martini: Classy Web Development in Go &middot; Jeremy Saenz</title>
+
+  
+  <link rel="stylesheet" href="https://codegangsta.io//css/poole.css">
+  <link rel="stylesheet" href="https://codegangsta.io//css/hyde.css">
+  <link rel="stylesheet" href="https://codegangsta.io//css/hyde-x.css">
+  <link rel="stylesheet" href="https://codegangsta.io//css/codegangsta.css">
+  <link rel="stylesheet" href="https://codegangsta.io//css/highlight/github.css">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link href="/favicon.png" rel="icon">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="codegangsta.io &middot; Jeremy Saenz" />
+
+  <meta name="description" content="">
+  <meta name="keywords" content="golang,web,martini">
+  
+</head>
+<body class="theme-base-0d">
+
+<div class="topbar">
+  <div class="color-overlay"></div>
+  <div class="container">
+    <div class="title">
+      <h1>CODE GANGSTA</h1>
+      <h4>Awesome tools and screencasts for Go programmers.</h4>
+    </div>
+
+    <a class="btn" data-mp-popup-trigger href="#">Subscribe Now</a>
+
+    
+    
+    
+    
+    
+    
+    
+    
+  </div>
+</div>
+
+<div class="content container">
+  <div class="post">
+    <h1>Announcing Martini: Classy Web Development in Go</h1>
+    <span class="post-date">Nov 14, 2013 &middot; 1 minute read &middot; <a href="https://codegangsta.io/blog/2013/11/14/announcing-martini-classy-web-development-in-go/#disqus_thread">Comments</a>
+    
+    <br/>
+    
+    <a class="label" href="https://codegangsta.io//categories/golang">golang</a><a class="label" href="https://codegangsta.io//categories/web">web</a><a class="label" href="https://codegangsta.io//categories/martini">martini</a>
+    </span>
+    <p>Last night I tweeted about a web framework for Go called Martini.
+Martini has a non-intrusive design, and has awesome routing and middleware support.</p>
+
+<p><a href="http://martini.codegangsta.io/">http://martini.codegangsta.io/</a></p>
+
+<p>Below is a basic &ldquo;Hello world!&rdquo;:</p>
+
+<pre><code class="language-go">package main
+
+import &quot;github.com/codegangsta/martini&quot;
+
+func main() {
+  m := martini.Classic()
+  
+  m.Get(&quot;/&quot;, func() string {
+    return &quot;Hello world!&quot;
+  })
+
+  m.Run()
+}
+</code></pre>
+
+<p>So far the response has been fantastic, I am excited to see which ways the Golang community can come together to make something awesome:</p>
+
+<p><blockquote class="twitter-tweet"><p><a href="https://twitter.com/codegangsta">@codegangsta</a> damn! that is really impressive. This has to be the best lightweight <a href="https://twitter.com/search?q=%23golang&amp;src=hash">#golang</a> web framework yet! Kudos.</p>&mdash; Dave Cheney (@davecheney) <a href="https://twitter.com/davecheney/statuses/400941765076611072">November 14, 2013</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+<p>Go check it out, you won&rsquo;t regret it. <a href="https://github.com/codegangsta/martini">https://github.com/codegangsta/martini</a></p>
+
+  </div>
+  <div id="disqus_thread"></div>
+</div>
+
+
+<script type="text/javascript">
+var disqus_shortname = "codegangsta";
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+
+
+
+<script type="text/javascript">
+    var disqus_shortname = "codegangsta";
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+<script src="https://codegangsta.io//js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script type="text/javascript">
+  (function() {
+   var s = document.createElement('script');
+   var popupId = "1405135147462817";
+   window.megaphonePopupId = popupId;
+   window['mpPopupUrl' + popupId] = "http://o4kmjc5e.megaph.com/?popup=true";
+
+   s.type = 'text/javascript';
+   s.async = true;
+   s.src = '//megaphoneapp.global.ssl.fastly.net/assets/embedded_popups.js';
+   var x = document.getElementsByTagName('script')[0];
+   x.parentNode.insertBefore(s, x);
+
+   })();
+</script>
+
+
+</body>
+</html>
+

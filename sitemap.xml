@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://codegangsta.io/</loc>
+    <lastmod>2015-03-08T16:23:07-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://codegangsta.io/blog/2015/03/08/essential-go-concurrency/</loc>
+    <lastmod>2015-03-08T16:23:07-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codegangsta.io/blog/2015/03/03/announcing-essential-go/</loc>
+    <lastmod>2015-03-03T20:27:45-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codegangsta.io/about/</loc>
+    <lastmod>2015-01-31T11:25:15-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codegangsta.io/blog/2014/05/19/my-thoughts-on-martini/</loc>
+    <lastmod>2014-05-19T10:51:49-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codegangsta.io/blog/2013/11/14/announcing-martini-classy-web-development-in-go/</loc>
+    <lastmod>2013-11-14T16:52:36-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codegangsta.io/blog/2013/07/21/creating-cli-applications-in-go/</loc>
+    <lastmod>2013-07-21T16:28:53-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codegangsta.io/blog/2013/07/11/practical-go-build-tags/</loc>
+    <lastmod>2013-07-11T16:23:17-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codegangsta.io/blog/2013/07/08/c-bindings-in-go-a-practical-example/</loc>
+    <lastmod>2013-07-08T16:17:55-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codegangsta.io/blog/2013/04/04/dependency-injection-in-ruby/</loc>
+    <lastmod>2013-04-04T16:03:55-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://codegangsta.io/blog/2013/04/03/a-warm-welcome-from-the-code-gangsta/</loc>
+    <lastmod>2013-04-03T15:58:01-08:00</lastmod>
+  </url>
+  
+</urlset>
